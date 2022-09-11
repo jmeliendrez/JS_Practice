@@ -1,5 +1,12 @@
 <html>
-    <body>
+<head>
+    <script>
+        function myFunction(){
+            document.getElementById("head_js").innerHTML = "CHANGED LIKE A BOSS!!"
+        }
+    </script>
+</head>    
+<body>
         <h2>What Can JS do?</h2>
         <p id="demo">JS can change HTML content</p>
 
@@ -8,6 +15,10 @@
     <br>
 
     <p id="first_script"></p>
+
+    <h2>Demo JS in Head</h2>
+    <p id="head_js">A Paragraph!</p>
+    <button type="button" onclick="myFunction()">Try it!!!</button>
 
     <script>
         document.getElementById("first_script").innerHTML = "My First Javascript";
