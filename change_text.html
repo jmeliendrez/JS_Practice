@@ -23,5 +23,17 @@
     <script>
         document.getElementById("first_script").innerHTML = "My First Javascript";
     </script>
+
+    <!--JS scripts in the body are quicker in the body rather than the head-->
+    <h2>Another Script, but this time in the body of HTML</h2>
+    <button id="body_js" onclick="secondFunction()">Another function but in the body</button>
+    <script>
+        function secondFunction(){
+        document.getElementById("body_js").innerHTML = "I'm in the BODY!!!"
+    }
+    </script>
+<h2 id="jack"></h2>
+    <!--Calling an external script-->
+    <script src = "myScript.js"></script>
     </body>
 </html>
