@@ -1,3 +1,3 @@
-function myFunction(){
-    document.getElementById("jack").innerHTML = "I'm the OG script baby!";
+function extFunction(){
+    document.getElementById("jack").innerHTML = "OG script!!";
 }

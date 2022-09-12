@@ -1,7 +1,7 @@
 <html>
 <head>
     <script>
-        function myFunction(){
+        function headFunction(){
             document.getElementById("head_js").innerHTML = "CHANGED LIKE A BOSS!!"
         }
     </script>
@@ -18,7 +18,7 @@
 
     <h2>Demo JS in Head</h2>
     <p id="head_js">A Paragraph!</p>
-    <button type="button" onclick="myFunction()">Try it!!!</button>
+    <button type="button" onclick="headFunction()">Try it!!!</button>
 
     <script>
         document.getElementById("first_script").innerHTML = "My First Javascript";
@@ -32,7 +32,9 @@
         document.getElementById("body_js").innerHTML = "I'm in the BODY!!!"
     }
     </script>
-<h2 id="jack"></h2>
+<br>
+<h3 id ="jack">Try external</h3>    
+<button type="button" onclick="extFunction()">first external script</button>
     <!--Calling an external script-->
     <script src = "myScript.js"></script>
     </body>
